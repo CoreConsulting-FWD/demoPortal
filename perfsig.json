@@ -1,0 +1,17 @@
+"timeseries" : [
+    {
+        "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
+        "aggregation" : "percentile",
+        "tags" : "app:TM_DEVOPS,environment:TM_DEVOPS",
+        "upperLimit" : 1800000,
+        "lowerLimit" : 1500000
+    },
+    {
+        "timeseriesId" : "com.dynatrace.builtin:service.server_side_requests",
+        "aggregation" : "count",
+        "tags" : "app:TM_DEVOPS,environment:TM_DEVOPS",
+        "upperLimit" : 100,
+        "lowerLimit" : 250
+    }
+
+]
