@@ -81,6 +81,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -140,6 +144,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=ProductServices/apm.html-6</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -185,11 +193,15 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/ProductServices/includes/apm.jpg</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Career/career-16" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Career/career.html-16" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -233,6 +245,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Career/career.html</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -279,6 +295,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">*/*</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Career/home.js</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -323,6 +343,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/css,*/*;q=0.1</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Career/style_home.css</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -369,6 +393,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Career/includes/logo.svg</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -413,6 +441,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Career/includes/careerhead.JPG</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -463,6 +495,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/about</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -507,6 +543,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/home.js</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -553,6 +593,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/css,*/*;q=0.1</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/style_home.css</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -597,6 +641,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/logo.svg</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -643,6 +691,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/dynatrace.svg</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -687,6 +739,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/neotys.svg</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -733,6 +789,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/tm.svg</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -777,6 +837,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/vads.svg</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -823,6 +887,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/heitech.svg</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -867,6 +935,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/WhyUS/includes/abouthead.jpg</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -917,6 +989,10 @@
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8</stringProp>
               </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Contact/contact.html</stringProp>
+              </elementProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
@@ -961,6 +1037,10 @@
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
                 <stringProp name="Header.value">image/avif,image/webp,*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">x-dynatrace-test</stringProp>
+                <stringProp name="Header.value">SI=Jmeter;TSN=/Contact/includes/contacthead.jpg</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
