@@ -9,18 +9,25 @@
             "lowerLimit" : 1500000
         },
         {
-            "timeseriesId" : "com.dynatrace.builtin:host.cpu.usage",
+            "timeseriesId" : "com.dynatrace.builtin:service.failurerate",
             "aggregation" : "avg",
-            "entityIds": "HOST-D821B71F8D316AF4",
-            "upperLimit" : 90,
-            "lowerLimit" : 50
+            "entityIds": "SERVICE-BA56D0072E384D3E",
+            "upperLimit" : 5,
+            "lowerLimit" : 0
         },
         {
-            "timeseriesId" : "com.dynatrace.builtin:service.server_side_requests",
-            "aggregation" : "count",
+            "timeseriesId" : "com.dynatrace.builtin:service.requestspermin",
+            "aggregation" : "avg",
             "entityIds": "SERVICE-BA56D0072E384D3E",
-            "upperLimit" : 100,
-            "lowerLimit" : 250
+            "upperLimit" : 10000,
+            "lowerLimit" : 2000
+        },
+        {
+            "timeseriesId" : "com.dynatrace.builtin:host.cpu.idle",
+            "aggregation" : "avg",
+            "entityIds": "HOST-D821B71F8D316AF4",
+            "upperLimit" : 20,
+            "lowerLimit" : 10
         }
     ]
 }
