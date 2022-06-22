@@ -9,20 +9,6 @@
             "lowerLimit" : 1500000
         },
         {
-            "timeseriesId" : "com.dynatrace.builtin:service.keyRequest.response.client",
-            "aggregation" : "avg",
-            "entityIds": "SERVICE-BA56D0072E384D3E",
-            "upperLimit" : 1800000,
-            "lowerLimit" : 1500000
-        },
-        {
-            "timeseriesId" : "com.dynatrace.builtin:service.keyRequest.response.server",
-            "aggregation" : "avg",
-            "entityIds": "SERVICE-BA56D0072E384D3E",
-            "upperLimit" : 1800000,
-            "lowerLimit" : 1500000
-        },
-        {
             "timeseriesId" : "com.dynatrace.builtin:host.cpu.load",
             "aggregation" : "avg",
             "entityIds": "HOST-D821B71F8D316AF4",
