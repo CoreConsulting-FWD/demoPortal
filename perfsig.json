@@ -28,6 +28,13 @@
             "entityIds": "HOST-D821B71F8D316AF4",
             "upperLimit" : 20,
             "lowerLimit" : 10
-        }
+        },
+        {
+            "timeseriesId" : "com.dynatrace.builtin:host.mem.availablepercentage",
+            "aggregation" : "avg",
+            "entityIds": "HOST-D821B71F8D316AF4",
+            "upperLimit" : 20,
+            "lowerLimit" : 10
+        },
     ]
 }
