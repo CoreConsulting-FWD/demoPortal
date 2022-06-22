@@ -35,6 +35,6 @@
             "entityIds": "HOST-D821B71F8D316AF4",
             "upperLimit" : 20,
             "lowerLimit" : 10
-        },
+        }
     ]
 }
