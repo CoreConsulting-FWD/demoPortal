@@ -3,7 +3,7 @@
     "timeseries" : [
         {
             "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
-            "aggregation" : "percentile",
+            "aggregation" : "average",
             "entityIds": "SERVICE-BA56D0072E384D3E",
             "upperLimit" : 1800000,
             "lowerLimit" : 1500000
