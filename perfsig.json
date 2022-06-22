@@ -17,7 +17,7 @@
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.requestspermin",
-            "aggregation" : "avg",
+            "aggregation" : "count",
             "entityIds": "SERVICE-BA56D0072E384D3E",
             "upperLimit" : 10000,
             "lowerLimit" : 2000
